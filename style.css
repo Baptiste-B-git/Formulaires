@@ -1,0 +1,48 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #333;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    margin: 50px 0px;
+    color: white;
+
+}
+
+.galerie{
+    width: 80%;
+    max-width: 800px;
+    margin: 70px auto 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.icon{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+}
