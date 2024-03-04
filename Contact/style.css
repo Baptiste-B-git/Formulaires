@@ -5,7 +5,16 @@ body {
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.icon{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    padding: 10px;
+}
 .boxForm {
     margin-top: 30px;
     padding: 50px;
